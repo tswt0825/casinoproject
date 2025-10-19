@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #e52e71;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #ffe6e6;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+  display: block;
+  margin-top: 30px;
+}
+
+/* Bakgrunn for index.html */
+.index-body {
+  background: linear-gradient(to right, #ff8a00, #e52e71);
+}
+
+/* Bakgrunn for about.html */
+.about-body {
+  background: #4caf50;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #e52e71;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: transform 0.1s;
+}
+
+button:hover {
+  background-color: #ffe6e6;
+  transform: scale(1.05);
+}
